@@ -1,0 +1,156 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #3c414d;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-right: 20%;
+}
+header h1{
+    margin-top: 30px;
+    margin-left: 20px;
+    color: #f0c89d;
+}
+nav{
+    margin-top: 35px;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+nav ul{
+    list-style: none;
+}
+nav li{
+    margin: 5px;
+}
+
+nav i{
+    background-color: #f0c89d;
+    padding: 5px;
+    color: #3c414d;;
+}
+#perfil{
+    width: 200px;
+    border: 2px solid snow;
+    margin: 10px;
+    position: absolute;
+    margin-top: 50px;
+}
+#info-personal{
+    margin-top: 10px;
+    margin-left: 250px;
+    padding: 8px;
+}
+#info-personal li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+main{
+    padding: 0px;
+    margin: 0%;
+}
+
+#educacion {
+    background-color: #f4f4f4;    
+}
+.card {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 10px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+.cardedu{
+    display: flex;
+    justify-content: space-between;
+}
+.cardedu i{
+    color: #333;
+}
+
+.margen{
+    margin: 20px;
+    margin-top: 20px;
+    padding: 15px;
+    margin-left: 13%;
+    margin-right: 40%;
+}
+#habilidades{
+    margin-bottom: 0%;
+    background-color: #f4f4f4;    
+}
+.tecnicas li{
+    margin-bottom: 8px;
+    list-style: none;
+    background-color: #f0c89d;
+    border-radius: 10px;
+    padding: 10px;
+    padding-right: 150px;
+
+}
+
+.personales li{
+    margin-bottom: 8px;
+    list-style: none;
+    background-color: #f0c89d;
+    border-radius: 10px;
+    padding: 10px;
+    padding-right: 150px;
+
+}
+
+#idiomas{
+    margin: 0%;    
+}
+img.banderas{
+    width: 30px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+#intereses{
+    background-color: #f0c89d;
+    margin-top: 0%;    
+}
+#experiencia{
+    margin-top: 0%;
+    background-color: #f4f4f4;
+}
+
+.cardexp {
+    display: flex;
+    padding: 16px;
+    justify-content: space-between;
+}
+.cardsEXP div {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    flex: 1;
+    margin-right: 20px;
+}
+
+.cardexp h3 {
+    background-color: #f0c89d;
+    padding: 15px;
+    text-align: center;
+}
+
+.cardexp p {
+    padding: 15px;
+    margin-left: 10px;
+}
